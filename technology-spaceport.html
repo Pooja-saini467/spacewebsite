@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="technology.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+  crossorigin="anonymous">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  
+  <main class="component">
+    <div class="logo-wrapper">
+      <img src="assets/shared/logo.svg" href="index.html" class="logo" alt="">
+    </div>
+    <div class="line-wrapper">  </div>
+    
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="index.html" id="home" class="nav-list-link">00Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="destination-moon.html" id="destination" class="nav-list-link">01Destination</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="crew-commander.html" id="crew" class="nav-list-link">02Crew</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="technology-capsule.html" id="technology" class="nav-list-link active">03Technology</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+  </main>
+  
+  <section class="tech">
+    <div class="tech-wrapper">
+      <h1 class="tech-picker">03 <span>SPACE LAUNCH 101</span></h1>
+      <div class="tech-img">
+        <img src="assets/technology/image-spaceport-landscape.jpg" alt="tech-image" 
+        class="techImg">
+      </div>
+    </div>
+    
+    <div class="info-wrapper">
+      <ul class="tech-list">
+        <li class="tech-item"><a id="circle1" href="technology-capsule.html" class="tech-link">1</a></li>
+        <li class="tech-item"><a id="circle2" href="technology-spaceport.html"  class="tech-link active">2</a></li>
+        <li class="tech-item"><a id="circle3" href="technology-vehicle.html"  class="tech-link">3</a></li>
+      </ul>
+      
+      <div class="tech-description">
+        <h1 class="tech-title">THE TERMINLOGY...</h1>
+        <h2 class="tech-name">SPACEPORT</h2>
+        <p class="tech-info">A spaceport or cosmodrome is a site for launching (or receiving) 
+          spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the 
+          famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s 
+          rotation for launch.
+        </p>
+      </div>     
+    </div>
+  </section>
+  <script src="app.js"></script>
+  <script src="script.js"></script>  
+  <script src="tech.js"></script>
+</body>
+</html>
